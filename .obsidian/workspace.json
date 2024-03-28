@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "doc/0. 总体情况.md",
+                "file": "doc/239. 滑动窗口最大值.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "doc/0. 总体情况.md",
+                "file": "doc/239. 滑动窗口最大值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "doc/0. 总体情况.md",
+                "file": "doc/239. 滑动窗口最大值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "doc/0. 总体情况.md"
+                "file": "doc/239. 滑动窗口最大值.md"
               }
             }
           }
@@ -143,11 +143,24 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "596b5fc7b29e893b",
   "lastOpenFiles": [
-    "doc/0. 总体情况.md"
+    "doc/560. 和为 K 的子数组.md",
+    "doc/239. 滑动窗口最大值.md",
+    "doc/438. 找到字符串中所有字母异位词.md",
+    "doc/283. 移动零-简单.md",
+    "doc/128. 最长连续序列-中等.md",
+    "doc/49. 字母异位词分组-中等.md",
+    "doc/42. 接雨水-困难.md",
+    "doc/15. 三数之和-中等.md",
+    "doc/11. 盛最多水的容器-中等.md",
+    "doc/3. 无重复字符的最长子串.md",
+    "doc/2. 两数相加-中等.md",
+    "doc/0. 总体情况.md",
+    "doc/1. 两数之和.md"
   ]
 }
