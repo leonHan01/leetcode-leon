@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,8 +161,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "248174acd1a8ff45",
+  "active": "d66f4a1475059ccf",
   "lastOpenFiles": [
+    "git_push.sh",
     "Pasted image 20240329223607.png",
     "Pasted image 20240329223537.png",
     "doc/0. 总体情况.md",
