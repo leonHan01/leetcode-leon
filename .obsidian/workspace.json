@@ -10,6 +10,7 @@
           {
             "id": "f4e0d1702390aad0",
             "type": "tabs",
+            "dimension": 60.09615384615385,
             "children": [
               {
                 "id": "596b5fc7b29e893b",
@@ -31,18 +32,31 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "doc/560. 和为 K 的子数组.md",
+                    "file": "doc/0. 总体情况.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fd00cd951e6f9a45",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "141. 环形链表.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "01ce860bb47130e7",
             "type": "tabs",
+            "dimension": 39.90384615384615,
             "children": [
               {
                 "id": "3adf634ac3f01c17",
@@ -74,8 +88,8 @@
                       },
                       "serial": {
                         "columns": 140,
-                        "data": "leon@leondeMac-mini leetcode % PWD\r\n/Users/leon/Documents/github/leetcode\r\nleon@leondeMac-mini leetcode %    \u001b[3D",
-                        "rows": 22
+                        "data": "leon@leondeMac-mini leetcode % PWD\r\n/Users/leon/Documents/github/leetcode\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main 89c21df] bug fix\r\n 45 files changed, 187 insertions(+), 51 deletions(-)\r\n create mode 100644 \"234. \\345\\233\\236\\346\\226\\207\\351\\223\\276\\350\\241\\250.md\"\r\n create mode 100644 Pasted image 20240330221219.png\r\n create mode 100644 Pasted image 20240330221625.png\r\n create mode 100644 Pasted image 20240330223644.png\r\n create mode 100644 Pasted image 20240330223703.png\r\n create mode 100644 Pasted image 20240330224539.png\r\n create mode 100644 Pasted image 20240330224625.png\r\n create mode 100644 Pasted image 20240330225422.png\r\n create mode 100644 Pasted image 20240330225509.png\r\n create mode 100644 Pasted image 20240330225603.png\r\n create mode 100644 Pasted image 20240330225623.png\r\n create mode 100644 Pasted image 20240330225652.png\r\n create mode 100644 Pasted image 20240330230016.png\r\n create mode 100644 Pasted image 20240330230024.png\r\n create mode 100644 Pasted image 20240330230147.png\r\n create mode 100644 Pasted image 20240330230354.png\r\n create mode 100644 Pasted image 20240330230542.png\r\n create mode 100644 Pasted image 20240330230717.png\r\n create mode 100644 Pasted image 20240330230855.png\r\n create mode 100644 Pasted image 20240330230908.png\r\n create mode 100644 Pasted image 20240330230936.png\r\n create mode 100644 Pasted image 20240330230954.png\r\n create mode 100644 Pasted image 20240330231018.png\r\n create mode 100644 Xnip2024-03-30_22-59-36.jpg\r\n create mode 100644 Xnip2024-03-30_23-01-09.jpg\r\n create mode 100644 Xnip2024-03-30_23-03-07.jpg\r\n create mode 100644 Xnip2024-03-30_23-06-34.jpg\r\n create mode 100644 Xnip2024-03-30_23-08-03.jpg\r\n create mode 100644 \"doc/160. \\347\\233\\270\\344\\272\\244\\351\\223\\276\\350\\241\\250.md\"\r\n create mode 100644 \"doc/206. \\347\\277\\273\\350\\275\\254\\351\\223\\276\\350\\241\\250.md\"\r\n rename \"doc/239. \\346\\273\\221\\345\\212\\250\\347\\252\\227\\345\\217\\243\\346\\234\\200\\345\\244\\247\\345\\200\\274.md\" => \"doc/239. \\346\\273\\221\\345\\212\\250\\347\\252\\227\\345\\217\\243\\346\\234\\200\\345\\244\\247\\345\\200\\274-todo.md\" (100%)\r\nEnumerating objects: 64, done.\r\nCounting objects: 100% (64/64), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (46/46), done.\r\nWriting objects: 100% (47/47), 4.82 MiB | 1.01 MiB/s, done.\r\nTotal 47 (delta 15), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (15/15), completed with 15 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   35e0d67..89c21df  main -> main\r\nleon@leondeMac-mini leetcode % git config --global user.email leonhan1992@163.com\r\nleon@leondeMac-mini leetcode % ",
+                        "rows": 17
                       }
                     }
                   },
@@ -212,6 +226,11 @@
   },
   "active": "3adf634ac3f01c17",
   "lastOpenFiles": [
+    "141. 环形链表.md",
+    "Pasted image 20240330231520.png",
+    "Pasted image 20240330231508.png",
+    "Pasted image 20240330231333.png",
+    "doc/0. 总体情况.md",
     "doc/560. 和为 K 的子数组.md",
     "Pasted image 20240330231018.png",
     "Pasted image 20240330230954.png",
@@ -228,16 +247,12 @@
     "Pasted image 20240330230717.png",
     "doc/53. 最大子数组和.md",
     "doc/49. 字母异位词分组-中等.md",
-    "Xnip2024-03-30_23-06-34.jpg",
-    "Pasted image 20240330230542.png",
-    "Pasted image 20240330230354.png",
     "doc/42. 接雨水-困难.md",
     "doc/15. 三数之和-中等.md",
     "doc/11. 盛最多水的容器-中等.md",
     "doc/3. 无重复字符的最长子串.md",
     "doc/2. 两数相加-中等.md",
     "doc/1. 两数之和.md",
-    "doc/0. 总体情况.md",
     "234. 回文链表.md",
     "git_push.sh"
   ]
