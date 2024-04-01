@@ -10,7 +10,7 @@
           {
             "id": "f4e0d1702390aad0",
             "type": "tabs",
-            "dimension": 55.28846153846154,
+            "dimension": 73.26923076923077,
             "children": [
               {
                 "id": "596b5fc7b29e893b",
@@ -44,19 +44,55 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "doc/279. 完全平方数 TODO.md",
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "625a4661e7539578",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8a5b0d0a23a0c0ff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "dfade052402728fc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "226. 翻转二叉树 TODO.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "01ce860bb47130e7",
             "type": "tabs",
-            "dimension": 44.71153846153847,
+            "dimension": 26.730769230769234,
             "children": [
               {
                 "id": "3adf634ac3f01c17",
@@ -88,8 +124,8 @@
                       },
                       "serial": {
                         "columns": 140,
-                        "data": "leon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main f35b2f2] bug fix\r\n 8 files changed, 63 insertions(+), 10 deletions(-)\r\n create mode 100644 \"136. \\345\\217\\252\\345\\207\\272\\347\\216\\260\\344\\270\\200\\346\\254\\241\\347\\232\\204\\346\\225\\260\\345\\255\\227.md\"\r\n create mode 100644 \"169. \\345\\244\\232\\346\\225\\260\\345\\205\\203\\347\\264\\240.md\"\r\n create mode 100644 Pasted image 20240331192543.png\r\n create mode 100644 Pasted image 20240331193029.png\r\n create mode 100644 Xnip2024-03-31_19-26-45.jpg\r\n create mode 100644 Xnip2024-03-31_19-33-57.jpg\r\nEnumerating objects: 17, done.\r\nCounting objects: 100% (17/17), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (12/12), done.\r\nWriting objects: 100% (12/12), 485.25 KiB | 1.69 MiB/s, done.\r\nTotal 12 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   639fa31..f35b2f2  main -> main\r\nleon@leondeMac-mini leetcode % git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main 574c524] bug fix\r\n 20 files changed, 138 insertions(+), 26 deletions(-)\r\n create mode 100644 .obsidian/graph.json\r\n create mode 100644 \"287. \\345\\257\\273\\346\\211\\276\\351\\207\\215\\345\\244\\215\\346\\225\\260.md\"\r\n create mode 100644 \"31. \\344\\270\\213\\344\\270\\200\\344\\270\\252\\346\\216\\222\\345\\210\\227.md\"\r\n create mode 100644 Pasted image 20240331194118.png\r\n create mode 100644 Pasted image 20240331195750.png\r\n create mode 100644 Pasted image 20240331200016.png\r\n create mode 100644 Pasted image 20240331200519.png\r\n create mode 100644 Pasted image 20240331200550.png\r\n create mode 100644 Pasted image 20240331202612.png\r\n create mode 100644 Xnip2024-03-31_19-33-57 1.jpg\r\n create mode 100644 Xnip2024-03-31_20-04-43.jpg\r\n create mode 100644 Xnip2024-03-31_20-38-12.jpg\r\n rename \"doc/11. \\347\\233\\233\\346\\234\\200\\345\\244\\232\\346\\260\\264\\347\\232\\204\\345\\256\\271\\345\\231\\250-\\344\\270\\255\\347\\255\\211.md\" => \"doc/11. \\347\\233\\233\\346\\234\\200\\345\\244\\232\\346\\260\\264\\347\\232\\204\\345\\256\\271\\345\\231\\250.md\" (100%)\r\n rename \"doc/128. \\346\\234\\200\\351\\225\\277\\350\\277\\236\\347\\273\\255\\345\\272\\217\\345\\210\\227-\\344\\270\\255\\347\\255\\211.md\" => \"doc/128. \\346\\234\\200\\351\\225\\277\\350\\277\\236\\347\\273\\255\\345\\272\\217\\345\\210\\227.md\" (100%)\r\n rename \"136. \\345\\217\\252\\345\\207\\272\\347\\216\\260\\344\\270\\200\\346\\254\\241\\347\\232\\204\\346\\225\\260\\345\\255\\227.md\" => \"doc/136. \\345\\217\\252\\345\\207\\272\\347\\216\\260\\344\\270\\200\\346\\254\\241\\347\\232\\204\\346\\225\\260\\345\\255\\227.md\" (100%)\r\n rename \"169. \\345\\244\\232\\346\\225\\260\\345\\205\\203\\347\\264\\240.md\" => \"doc/169. \\345\\244\\232\\346\\225\\260\\345\\205\\203\\347\\264\\240.md\" (100%)\r\n rename \"doc/49. \\345\\255\\227\\346\\257\\215\\345\\274\\202\\344\\275\\215\\350\\257\\215\\345\\210\\206\\347\\273\\204-\\344\\270\\255\\347\\255\\211.md\" => \"doc/49. \\345\\255\\227\\346\\257\\215\\345\\274\\202\\344\\275\\215\\350\\257\\215\\345\\210\\206\\347\\273\\204.md\" (100%)\r\n create mode 100644 \"doc/75. \\351\\242\\234\\350\\211\\262\\345\\210\\206\\347\\261\\273.md\"\r\nEnumerating objects: 22, done.\r\nCounting objects: 100% (22/22), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (17/17), done.\r\nWriting objects: 100% (17/17), 884.27 KiB | 2.36 MiB/s, done.\r\nTotal 17 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   f35b2f2..574c524  main -> main\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main 8eb132f] bug fix\r\n 9 files changed, 94 insertions(+), 76 deletions(-)\r\n delete mode 100644 \"31. \\344\\270\\213\\344\\270\\200\\344\\270\\252\\346\\216\\222\\345\\210\\227.md\"\r\n create mode 100644 Pasted image 20240331205048.png\r\n create mode 100644 Pasted image 20240331210649.png\r\n create mode 100644 \"doc/19. \\345\\210\\240\\351\\231\\244\\351\\223\\276\\350\\241\\250\\347\\232\\204\\345\\200\\222\\346\\225\\260\\347\\254\\254 N \\344\\270\\252\\350\\212\\202\\347\\202\\271.md\"\r\n create mode 100644 \"doc/24. \\344\\270\\244\\344\\270\\244\\344\\272\\244\\346\\215\\242\\351\\223\\276\\350\\241\\250\\344\\270\\255\\347\\232\\204\\350\\212\\202\\347\\202\\271.md\"\r\n rename \"287. \\345\\257\\273\\346\\211\\276\\351\\207\\215\\345\\244\\215\\346\\225\\260.md\" => \"doc/287. \\345\\257\\273\\346\\211\\276\\351\\207\\215\\345\\244\\215\\346\\225\\260.md\" (100%)\r\n create mode 100644 \"doc/31. \\344\\270\\213\\344\\270\\200\\344\\270\\252\\346\\216\\222\\345\\210\\227.md\"\r\nEnumerating objects: 16, done.\r\nCounting objects: 100% (16/16), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (11/11), done.\r\nWriting objects: 100% (11/11), 127.50 KiB | 386.00 KiB/s, done.\r\nTotal 11 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   574c524..8eb132f  main -> main\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main e0b6ed7] bug fix\r\n 53 files changed, 15 insertions(+), 12 deletions(-)\r\n rename Pasted image 20240329223537.png => resource/Pasted image 20240329223537.png (100%)\r\n rename Pasted image 20240329223607.png => resource/Pasted image 20240329223607.png (100%)\r\n rename Pasted image 20240330221219.png => resource/Pasted image 20240330221219.png (100%)\r\n rename Pasted image 20240330221625.png => resource/Pasted image 20240330221625.png (100%)\r\n rename Pasted image 20240330223644.png => resource/Pasted image 20240330223644.png (100%)\r\n rename Pasted image 20240330223703.png => resource/Pasted image 20240330223703.png (100%)\r\n rename Pasted image 20240330224539.png => resource/Pasted image 20240330224539.png (100%)\r\n rename Pasted image 20240330224625.png => resource/Pasted image 20240330224625.png (100%)\r\n rename Pasted image 20240330225422.png => resource/Pasted image 20240330225422.png (100%)\r\n rename Pasted image 20240330225509.png => resource/Pasted image 20240330225509.png (100%)\r\n rename Pasted image 20240330225603.png => resource/Pasted image 20240330225603.png (100%)\r\n rename Pasted image 20240330225623.png => resource/Pasted image 20240330225623.png (100%)\r\n rename Pasted image 20240330225652.png => resource/Pasted image 20240330225652.png (100%)\r\n rename Pasted image 20240330230016.png => resource/Pasted image 20240330230016.png (100%)\r\n rename Pasted image 20240330230024.png => resource/Pasted image 20240330230024.png (100%)\r\n rename Pasted image 20240330230147.png => resource/Pasted image 20240330230147.png (100%)\r\n rename Pasted image 20240330230354.png => resource/Pasted image 20240330230354.png (100%)\r\n rename Pasted image 20240330230542.png => resource/Pasted image 20240330230542.png (100%)\r\n rename Pasted image 20240330230717.png => resource/Pasted image 20240330230717.png (100%)\r\n rename Pasted image 20240330230855.png => resource/Pasted image 20240330230855.png (100%)\r\n rename Pasted image 20240330230908.png => resource/Pasted image 20240330230908.png (100%)\r\n rename Pasted image 20240330230936.png => resource/Pasted image 20240330230936.png (100%)\r\n rename Pasted image 20240330230954.png => resource/Pasted image 20240330230954.png (100%)\r\n rename Pasted image 20240330231018.png => resource/Pasted image 20240330231018.png (100%)\r\n rename Pasted image 20240330231333.png => resource/Pasted image 20240330231333.png (100%)\r\n rename Pasted image 20240330231508.png => resource/Pasted image 20240330231508.png (100%)\r\n rename Pasted image 20240330231520.png => resource/Pasted image 20240330231520.png (100%)\r\n rename Pasted image 20240330233523.png => resource/Pasted image 20240330233523.png (100%)\r\n rename Pasted image 20240330233611.png => resource/Pasted image 20240330233611.png (100%)\r\n rename Pasted image 20240330235316.png => resource/Pasted image 20240330235316.png (100%)\r\n rename Pasted image 20240331192543.png => resource/Pasted image 20240331192543.png (100%)\r\n rename Pasted image 20240331193029.png => resource/Pasted image 20240331193029.png (100%)\r\n rename Pasted image 20240331194118.png => resource/Pasted image 20240331194118.png (100%)\r\n rename Pasted image 20240331195750.png => resource/Pasted image 20240331195750.png (100%)\r\n rename Pasted image 20240331200016.png => resource/Pasted image 20240331200016.png (100%)\r\n rename Pasted image 20240331200519.png => resource/Pasted image 20240331200519.png (100%)\r\n rename Pasted image 20240331200550.png => resource/Pasted image 20240331200550.png (100%)\r\n rename Pasted image 20240331202612.png => resource/Pasted image 20240331202612.png (100%)\r\n rename Pasted image 20240331205048.png => resource/Pasted image 20240331205048.png (100%)\r\n rename Pasted image 20240331210649.png => resource/Pasted image 20240331210649.png (100%)\r\n rename Xnip2024-03-30_22-59-36.jpg => resource/Xnip2024-03-30_22-59-36.jpg (100%)\r\n rename Xnip2024-03-30_23-01-09.jpg => resource/Xnip2024-03-30_23-01-09.jpg (100%)\r\n rename Xnip2024-03-30_23-03-07.jpg => resource/Xnip2024-03-30_23-03-07.jpg (100%)\r\n rename Xnip2024-03-30_23-06-34.jpg => resource/Xnip2024-03-30_23-06-34.jpg (100%)\r\n rename Xnip2024-03-30_23-08-03.jpg => resource/Xnip2024-03-30_23-08-03.jpg (100%)\r\n rename Xnip2024-03-30_23-48-21.jpg => resource/Xnip2024-03-30_23-48-21.jpg (100%)\r\n rename Xnip2024-03-31_19-26-45.jpg => resource/Xnip2024-03-31_19-26-45.jpg (100%)\r\n rename Xnip2024-03-31_19-33-57 1.jpg => resource/Xnip2024-03-31_19-33-57 1.jpg (100%)\r\n rename Xnip2024-03-31_19-33-57.jpg => resource/Xnip2024-03-31_19-33-57.jpg (100%)\r\n rename Xnip2024-03-31_20-04-43.jpg => resource/Xnip2024-03-31_20-04-43.jpg (100%)\r\n rename Xnip2024-03-31_20-38-12.jpg => resource/Xnip2024-03-31_20-38-12.jpg (100%)\r\nEnumerating objects: 10, done.\r\nCounting objects: 100% (10/10), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (6/6), done.\r\nWriting objects: 100% (6/6), 2.34 KiB | 2.34 MiB/s, done.\r\nTotal 6 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   8eb132f..e0b6ed7  main -> main\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main d5e4e68] bug fix\r\n 2 files changed, 3 insertions(+), 4 deletions(-)\r\n rename \"doc/0. \\346\\200\\273\\344\\275\\223\\346\\203\\205\\345\\206\\265.md\" => README.md (100%)\r\nEnumerating objects: 9, done.\r\nCounting objects: 100% (9/9), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (5/5), 1.17 KiB | 1.17 MiB/s, done.\r\nTotal 5 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   e0b6ed7..d5e4e68  main -> main\r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main 183ab01] bug fix\r\n 21 files changed, 375 insertions(+), 23 deletions(-)\r\n create mode 100644 \"doc/118. \\346\\235\\250\\350\\276\\211\\344\\270\\211\\350\\247\\222 TODO.md\"\r\n create mode 100644 \"doc/138. \\351\\232\\217\\346\\234\\272\\351\\223\\276\\350\\241\\250\\347\\232\\204\\345\\244\\215\\345\\210\\266.md\"\r\n create mode 100644 \"doc/146. LRU \\347\\274\\223\\345\\255\\230 TODO.md\"\r\n create mode 100644 \"doc/148. \\346\\216\\222\\345\\272\\217\\351\\223\\276\\350\\241\\250 TODO.md\"\r\n create mode 100644 \"doc/23. \\345\\220\\210\\345\\271\\266 K \\344\\270\\252\\345\\215\\207\\345\\272\\217\\351\\223\\276\\350\\241\\250.md\"\r\n create mode 100644 \"doc/25. K\\344\\270\\252\\344\\270\\200\\347\\273\\204\\347\\277\\273\\350\\275\\254\\351\\223\\276\\350\\241\\250 TODO.md\"\r\n create mode 100644 \"doc/70. \\347\\210\\254\\346\\245\\274\\346\\242\\257.md\"\r\n create mode 100644 resource/Pasted image 20240331235424.png\r\n create mode 100644 resource/Pasted image 20240401004107.png\r\n create mode 100644 resource/Pasted image 20240401004346.png\r\n create mode 100644 resource/Pasted image 20240401005031.png\r\n create mode 100644 resource/Pasted image 20240401005756.png\r\n create mode 100644 resource/Pasted image 20240401010952.png\r\n create mode 100644 resource/Pasted image 20240401011745.png\r\n create mode 100644 resource/Pasted image 20240401012445.png\r\n create mode 100644 resource/Pasted image 20240401012524.png\r\n create mode 100644 resource/Xnip2024-03-31_23-38-51.jpg\r\n create mode 100644 resource/Xnip2024-03-31_23-44-16.jpg\r\n create mode 100644 resource/Xnip2024-03-31_23-53-13.jpg\r\nEnumerating objects: 32, done.\r\nCounting objects: 100% (32/32), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (26/26), done.\r\nWriting objects: 100% (26/26), 1.59 MiB | 599.00 KiB/s, done.\r\nTotal 26 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   d5e4e68..183ab01  main -> main\r\nleon@leondeMac-mini leetcode % ",
-                        "rows": 19
+                        "data": "leon@leondeMac-mini leetcode % ",
+                        "rows": 9
                       }
                     }
                   },
@@ -226,22 +262,26 @@
   },
   "active": "3adf634ac3f01c17",
   "lastOpenFiles": [
+    "226. 翻转二叉树 TODO.md",
+    "resource/Pasted image 20240402005121.png",
+    "resource/Pasted image 20240402004959.png",
+    "README.md",
+    "doc/104. 二叉树的最大深度.md",
+    "resource/Pasted image 20240402002014.png",
+    "resource/Pasted image 20240402002007.png",
+    "resource/Pasted image 20240402001841.png",
+    "doc/94. 二叉树的中序遍历.md",
+    "resource/Pasted image 20240401222308.png",
+    "resource/Pasted image 20240401222302.png",
+    "resource/Pasted image 20240401222153.png",
+    "doc/139. 单词拆分.md",
+    "resource/Pasted image 20240401015144.png",
+    "resource/Pasted image 20240401015119.png",
     "doc/279. 完全平方数 TODO.md",
     "doc/322. 零钱兑换 TODO.md",
-    "resource/Xnip2024-04-01_01-38-14.jpg",
-    "resource/Pasted image 20240401013722.png",
-    "README.md",
-    "resource/Pasted image 20240401013400.png",
-    "resource/Pasted image 20240401013340.png",
     "doc/198. 打家劫舍.md",
-    "resource/Pasted image 20240401012922.png",
-    "resource/Pasted image 20240401012841.png",
     "doc/118. 杨辉三角 TODO.md",
-    "resource/Pasted image 20240401012524.png",
-    "resource/Pasted image 20240401012445.png",
     "doc/70. 爬楼梯.md",
-    "resource/Pasted image 20240401011745.png",
-    "resource/Pasted image 20240401010952.png",
     "doc/146. LRU 缓存 TODO.md",
     "doc/23. 合并 K 个升序链表.md",
     "doc/138. 随机链表的复制.md",
@@ -258,10 +298,6 @@
     "doc/136. 只出现一次的数字.md",
     "doc/128. 最长连续序列.md",
     "doc/3. 无重复字符的最长子串.md",
-    "doc/11. 盛最多水的容器.md",
-    "doc/169. 多数元素.md",
-    "doc/142. 环形链表2.md",
-    "doc/141. 环形链表.md",
     "git_push.sh"
   ]
 }
