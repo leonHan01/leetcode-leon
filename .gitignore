@@ -4,7 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### Obsidian ###
-.obsidian/workspace.json
+.obsidian/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
