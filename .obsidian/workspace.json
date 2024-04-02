@@ -10,7 +10,7 @@
           {
             "id": "f4e0d1702390aad0",
             "type": "tabs",
-            "dimension": 70.09615384615384,
+            "dimension": 61.82692307692308,
             "children": [
               {
                 "id": "596b5fc7b29e893b",
@@ -56,19 +56,31 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "doc/543. 二叉树的直径.md",
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c38ba922fcdf2750",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "300. 最长递增子序列.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "01ce860bb47130e7",
             "type": "tabs",
-            "dimension": 29.903846153846153,
+            "dimension": 38.17307692307692,
             "children": [
               {
                 "id": "3adf634ac3f01c17",
@@ -100,8 +112,8 @@
                       },
                       "serial": {
                         "columns": 140,
-                        "data": "leon@leondeMac-mini leetcode % ",
-                        "rows": 11
+                        "data": "leon@leondeMac-mini leetcode % vim .gitignore\r\nleon@leondeMac-mini leetcode % git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .gitignore\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   README.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m\"300. \\346\\234\\200\\351\\225\\277\\351\\200\\222\\345\\242\\236\\345\\255\\220\\345\\272\\217\\345\\210\\227.md\"\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nleon@leondeMac-mini leetcode % vim .gitignore \r\nleon@leondeMac-mini leetcode %       \u001b[6D",
+                        "rows": 16
                       }
                     }
                   },
@@ -238,10 +250,12 @@
   },
   "active": "3adf634ac3f01c17",
   "lastOpenFiles": [
+    "300. 最长递增子序列.md",
+    "README.md",
+    "doc/322. 零钱兑换 TODO.md",
     "doc/543. 二叉树的直径.md",
     "resource/Xnip2024-04-02_08-24-06.jpg",
     "resource/Pasted image 20240402082324.png",
-    "README.md",
     "doc/101. 对称二叉树.md",
     "resource/Xnip2024-04-02_08-17-50.jpg",
     "doc/226. 翻转二叉树 TODO.md",
@@ -256,7 +270,6 @@
     "resource/Pasted image 20240401222302.png",
     "doc/139. 单词拆分.md",
     "doc/279. 完全平方数 TODO.md",
-    "doc/322. 零钱兑换 TODO.md",
     "doc/198. 打家劫舍.md",
     "doc/118. 杨辉三角 TODO.md",
     "doc/70. 爬楼梯.md",
