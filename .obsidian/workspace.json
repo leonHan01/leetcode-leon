@@ -4,126 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "7a3d9cdd00b7e6b6",
-        "type": "split",
+        "id": "f4e0d1702390aad0",
+        "type": "tabs",
         "children": [
           {
-            "id": "f4e0d1702390aad0",
-            "type": "tabs",
-            "dimension": 61.82692307692308,
-            "children": [
-              {
-                "id": "596b5fc7b29e893b",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
+            "id": "596b5fc7b29e893b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "e206ff6c66044ab7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "doc/322. 零钱兑换 TODO.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b478aca8bd672d77",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d4aea353d798b2ca",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c38ba922fcdf2750",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "300. 最长递增子序列.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 4
+              "pinned": true
+            }
           },
           {
-            "id": "01ce860bb47130e7",
-            "type": "tabs",
-            "dimension": 38.17307692307692,
-            "children": [
-              {
-                "id": "3adf634ac3f01c17",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/leon/Documents/github/leetcode",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 140,
-                        "data": "leon@leondeMac-mini leetcode % vim .gitignore\r\nleon@leondeMac-mini leetcode % git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .gitignore\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   README.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m\"300. \\346\\234\\200\\351\\225\\277\\351\\200\\222\\345\\242\\236\\345\\255\\220\\345\\272\\217\\345\\210\\227.md\"\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nleon@leondeMac-mini leetcode % vim .gitignore \r\nleon@leondeMac-mini leetcode % git add -A\r\n git commit -m 'bug fix'\r\n git push\r\n\r\n[main c5c7b55] bug fix\r\n 4 files changed, 26 insertions(+), 9 deletions(-)\r\n create mode 100644 \"300. \\346\\234\\200\\351\\225\\277\\351\\200\\222\\345\\242\\236\\345\\255\\220\\345\\272\\217\\345\\210\\227.md\"\r\nEnumerating objects: 12, done.\r\nCounting objects: 100% (12/12), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (6/6), done.\r\nWriting objects: 100% (7/7), 1.36 KiB | 1.36 MiB/s, done.\r\nTotal 7 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:leonHan01/leetcode-leon.git\r\n   0f5915c..c5c7b55  main -> main\r\nleon@leondeMac-mini leetcode % git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nleon@leondeMac-mini leetcode % vim .gitignore  \r\nleon@leondeMac-mini leetcode % git add -A    \r\n git commit -m 'bug fix'\r\n git push\r\n",
-                        "rows": 16
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
+            "id": "e206ff6c66044ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/322. 零钱兑换 TODO.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "b478aca8bd672d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4aea353d798b2ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c38ba922fcdf2750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300. 最长递增子序列.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300. 最长递增子序列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300. 最长递增子序列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300. 最长递增子序列.md"
+              }
             }
           }
         ]
@@ -248,7 +199,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3adf634ac3f01c17",
+  "active": "c38ba922fcdf2750",
   "lastOpenFiles": [
     "300. 最长递增子序列.md",
     "README.md",
