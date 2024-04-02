@@ -10,7 +10,7 @@
           {
             "id": "f4e0d1702390aad0",
             "type": "tabs",
-            "dimension": 73.26923076923077,
+            "dimension": 70.09615384615384,
             "children": [
               {
                 "id": "596b5fc7b29e893b",
@@ -39,7 +39,7 @@
                 }
               },
               {
-                "id": "1e2df8700fc25ccb",
+                "id": "b478aca8bd672d77",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -51,48 +51,24 @@
                 }
               },
               {
-                "id": "625a4661e7539578",
+                "id": "d4aea353d798b2ca",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8a5b0d0a23a0c0ff",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "dfade052402728fc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "226. 翻转二叉树 TODO.md",
+                    "file": "doc/543. 二叉树的直径.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           },
           {
             "id": "01ce860bb47130e7",
             "type": "tabs",
-            "dimension": 26.730769230769234,
+            "dimension": 29.903846153846153,
             "children": [
               {
                 "id": "3adf634ac3f01c17",
@@ -125,7 +101,7 @@
                       "serial": {
                         "columns": 140,
                         "data": "leon@leondeMac-mini leetcode % ",
-                        "rows": 9
+                        "rows": 11
                       }
                     }
                   },
@@ -262,10 +238,15 @@
   },
   "active": "3adf634ac3f01c17",
   "lastOpenFiles": [
-    "226. 翻转二叉树 TODO.md",
+    "doc/543. 二叉树的直径.md",
+    "resource/Xnip2024-04-02_08-24-06.jpg",
+    "resource/Pasted image 20240402082324.png",
+    "README.md",
+    "doc/101. 对称二叉树.md",
+    "resource/Xnip2024-04-02_08-17-50.jpg",
+    "doc/226. 翻转二叉树 TODO.md",
     "resource/Pasted image 20240402005121.png",
     "resource/Pasted image 20240402004959.png",
-    "README.md",
     "doc/104. 二叉树的最大深度.md",
     "resource/Pasted image 20240402002014.png",
     "resource/Pasted image 20240402002007.png",
@@ -273,10 +254,7 @@
     "doc/94. 二叉树的中序遍历.md",
     "resource/Pasted image 20240401222308.png",
     "resource/Pasted image 20240401222302.png",
-    "resource/Pasted image 20240401222153.png",
     "doc/139. 单词拆分.md",
-    "resource/Pasted image 20240401015144.png",
-    "resource/Pasted image 20240401015119.png",
     "doc/279. 完全平方数 TODO.md",
     "doc/322. 零钱兑换 TODO.md",
     "doc/198. 打家劫舍.md",
@@ -296,8 +274,6 @@
     "doc/287. 寻找重复数.md",
     "doc/75. 颜色分类.md",
     "doc/136. 只出现一次的数字.md",
-    "doc/128. 最长连续序列.md",
-    "doc/3. 无重复字符的最长子串.md",
     "git_push.sh"
   ]
 }
