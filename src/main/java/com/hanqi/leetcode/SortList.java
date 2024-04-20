@@ -1,15 +1,8 @@
-## 题目描述
+package com.hanqi.leetcode;
 
-- [148. 排序链表](https://leetcode.cn/problems/sort-list/)
-* 本地文件： file:/Users/leon/Documents/github/leetcode/src/main/java/com/hanqi/leetcode/SortList.java
-![[Pasted image 20240401004107.png]]
+import com.hanqi.leetcode.common.ListNode;
 
-## 题解
-![[Pasted image 20240420222223.png]]
-- 下面是使用 chatgpt 生成的题解，比官方题解容易理解的多
-
-```java
-public class Solution {
+public class SortList {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -49,4 +42,3 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
