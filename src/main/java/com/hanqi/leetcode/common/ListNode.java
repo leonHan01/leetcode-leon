@@ -1,6 +1,14 @@
 package com.hanqi.leetcode.common;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class ListNode {
+
+    Map<ListNode, Integer> map = new HashMap<>();
+
     public int val;
     public ListNode next;
 
@@ -18,14 +26,28 @@ public class ListNode {
 
     @Override
     public String toString() {
+        map.clear();
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(this.val);
         ListNode tmp = next;
         int maxLength = 30;
         int i = 0;
+        map.put(this, 1);
+
         while (tmp != null) {
             i++;
-            stringBuilder.append("->").append(tmp.val);
+            if (map.containsKey(tmp)) {
+                int cnt = map.get(tmp);
+                if (cnt % 2 == 1) {
+                    stringBuilder.append("->").append("(").append(tmp.val).append(")");
+                } else {
+                    stringBuilder.append("->").append("{").append(tmp.val).append("}");
+                }
+                map.put(tmp, ++cnt);
+            } else {
+                stringBuilder.append("->").append(tmp.val);
+                map.put(tmp, 1);
+            }
             tmp = tmp.next;
             if (i >= maxLength) {
                 stringBuilder.append("......");
