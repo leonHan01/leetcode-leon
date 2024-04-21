@@ -21,9 +21,16 @@ public class ListNode {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(this.val);
         ListNode tmp = next;
+        int maxLength = 30;
+        int i = 0;
         while (tmp != null) {
+            i++;
             stringBuilder.append("->").append(tmp.val);
             tmp = tmp.next;
+            if (i >= maxLength) {
+                stringBuilder.append("......");
+                break;
+            }
         }
         stringBuilder.append("->NULL");
         return stringBuilder.toString();
