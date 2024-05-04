@@ -1,36 +1,32 @@
+
+
+
 ```java
 class Solution {
-	public int search(int[] nums, int target) {
-		int n = nums.length;
-		if (n == 0) {
-			return -1;
+	public int maxProfit(int k, int[] prices) {
+		if (prices.length == 0) {
+			return 0;
 		}
-		if (n == 1) {
-			return target == nums[0] ? 0 : -1;
+		int n = prices.length;
+		k = Math.min(k, n/2);
+		int[][] buy = new int[n][k + 1]; // 为什么是 k + 1，因为要考虑 k= 0，所以一共是0,1,2...k,一共k+1种情况
+		int[][] sell = new int[n][k + 1];
+
+		buy[0][0] = -prices[0];
+		sell[0][0] = 0
+		for (int i = 1; i <= k; ++i) {
+			buy[0][i] = sell[0][i] = Integer.MIN_VALUE/2;
 		}
-		int l = 0, r = n -1;
-		while (l <= r) { // 注意，二分查找，l 需要小于等于 r，等于的情况也要考虑
-			int mid = ((r - l) >> 1 ) + l ;
-			if (nums[mid] == target) {
-				return mid;
-			}
-			if (nums[0] <= nums[mid]) {
-				if (nums[0] <= target && target < nums[mid]) {
-					r = mid - 1;
-				} else {
-					l = mid + 1;
-				}
-			} else {
-				if (nums[mid] < target && target <= nums[n - 1]) {
-					l = mid + 1;
-				} else {
-					r = mid - 1;
-				}
-			}
+		for (int i = 1; i < n; ++i) {
+			buy[i][0] = Math.max(buy[i - 1][0], sell[i - 1][0] - prices[i]);
+            for (int j = 1; j <= k; ++j) {
+                buy[i][j] = Math.max(buy[i - 1][j], sell[i - 1][j] - prices[i]);
+                sell[i][j] = Math.max(sell[i - 1][j], buy[i - 1][j - 1] + prices[i]);   
+            }
 		}
-		return -1;
+		return Arrays.stream(sell[n - 1]).max().getAsInt(); // 学习这个写法
 	}
+
 }
+
 ```
-
-
