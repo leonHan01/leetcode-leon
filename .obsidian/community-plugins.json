@@ -5,5 +5,6 @@
   "obsidian-copy-block-link",
   "obsidian-emoji-toolbar",
   "terminal",
-  "slash-commander"
+  "slash-commander",
+  "obsidian-plantuml"
 ]

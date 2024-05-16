@@ -13,4 +13,15 @@ public class ListNodeUtils {
         }
         return headNode;
     }
+
+    public static ListNode getDefaultList(int size) {
+        ListNode prev = new ListNode(0);
+        ListNode dummy = prev;
+        for (int i = 0; i < size; i++) {
+            ListNode node = new ListNode(i + 1);
+            dummy.next = node;
+            dummy = dummy.next;
+        }
+        return prev.next;
+    }
 }
